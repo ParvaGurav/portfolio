@@ -18,10 +18,11 @@ const Experience = () => {
       position: "Java Developer - Trainee",
       dates: "June 2022 - October 2022",
       description: [
-        "Developed and hosted dynamic Ticket Management database-integrated applications using Java - Spring Boot and ReactJS, enhancing software functionality and database connectivity.",
-        "Led key phases of SDLC by writing, testing, and debugging code in collaboration with development teams to deliver high-quality, client-ready solutions.",
-        "Enhanced application efficiency, reducing API calls by 50% and boosting performance by 25%, using advanced code and resource optimization techniques.",
-        "Worked closely with product teams, streamlining project timelines and driving a 30% increase in timely feature and bug-fix releases."
+        "Developed and hosted web-enabled, database-driven Ticket Management applications in Java - Spring Boot with ReactJS, optimizing software functionality and ensuring database integration.",
+        "Improved software performance by implementing AWS services, including AWS RDS for database management and AWS S3 for file storage, enhancing data handling efficiency.",
+        "Participated in SDLC (System Development Life Cycle), collaborating with the development team to write, test, and debug code, ensuring that the solutions deployed were bug-free and met the client’s requirements.",
+        "Improvised code and resource optimization techniques to maximize the performance of our software application, resulting in a 50% decrease in API calls and a 25% faster experience for end-users.",
+        "Collaborated with product managers, designers, and developers to gather requirements and ensure the successful delivery of projects, leading to a 30% increase in on-time delivery of new features and bug fixes."
       ],
       tags: ["Java", "Spring Boot", "ReactJs", "JavaScript", "ReactJs", "NodeJs & ExpressJs", "OAuth 2.0", "Micro-services", "Manual Testing", "Deployment", "Client-Support" ],
     },
