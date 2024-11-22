@@ -17,7 +17,7 @@ const Projects = () => {
       title: 'FoodDayy!!',
       description:
         'Food Delivery Admin App is a robust backend solution built using Node.js, Express.js, and MongoDB, tailored to streamline restaurant operations. This application allows restaurant owners to efficiently manage their menus by adding products with accompanying images to enhance customer engagement. With seamless cart integration and delivery management features, the app ensures a smooth and user-friendly food ordering experience.',
-      code: 'https://github.com/ParvaGurav',
+      code: 'https://github.com/ParvaGurav/fooddayy',
       live: '',
       stack: 'JavaScript, NodeJs, ExpressJs, MongoDB',
       thumbnail: foodDay,
@@ -45,22 +45,15 @@ const Projects = () => {
             <div className="flex flex-col items-start space-y-3">
               <h2 className="text-lg font-semibold">{work.title}</h2>
               <p className="text-sm text-gray-600">{work.description}</p>
-              <div className="flex flex-row items-center w-full space-x-3"><a
-                  href={"hello"}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-3 py-1 text-sm transition duration-500 ease-in-out border rounded-lg hover:bg-zinc-900 hover:text-white"
-                >
-                  Soon On Github
-                </a>
-                {/*<a
+              <div className="flex flex-row items-center w-full space-x-3">
+                {/* <a
                   href={work.live}
                   target="_blank"
                   rel="noreferrer"
                   className="px-3 py-1 text-sm transition duration-500 ease-in-out border rounded-lg hover:bg-zinc-900 hover:text-white"
                 >
                   Live
-                </a>
+                </a> */}
                 <a
                   href={work.code}
                   target="_blank"
@@ -69,7 +62,6 @@ const Projects = () => {
                 >
                   Source Code
                 </a>
-                */}
               </div>
             </div>
           </div>
